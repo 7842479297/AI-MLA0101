@@ -1,0 +1,7 @@
+Now, write a predicate table/3 which prints the truth table of a given logical expression in two variables.
+Example:
+?- table(A,B,and(A,or(A,B))).
+true true true
+true fail true
+fail true fail
+fail fail fail
